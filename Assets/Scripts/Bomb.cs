@@ -14,5 +14,16 @@ public class Bomb : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+    }
+
+    private void OnMouseDown()
+    {
+
+    }
+
+    private void OnMouseDrag()
+    {
+        
     }
 }

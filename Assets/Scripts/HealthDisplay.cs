@@ -10,13 +10,12 @@ public class HealthDisplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = new Player();
-        healthDisplay.text = player.Health.ToString();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        healthDisplay.text = player.Health.ToString();
     }
 }
